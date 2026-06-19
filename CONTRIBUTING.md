@@ -6,7 +6,7 @@
 * Git.
 ## Клонування репозиторію
 ```bash
-git clone https://github.com/username/task-manager.git
+git clone https://github.com/Homercha/list-to-do
 ```
 ## Створення нової гілки
 Перед внесенням змін створюйте окрему гілку:
