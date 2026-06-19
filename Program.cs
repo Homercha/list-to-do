@@ -34,7 +34,7 @@ class Program
 
                     if (tasks.Count == 0)
                     {
-                        Console.WriteLine("Порожньо");
+                        Console.WriteLine("Список завдань порожній ");
                     }
                     else
                     {
