@@ -57,8 +57,11 @@ class Program
                     if (tasks.Count > 0)
                     {
                         Console.Write("Номер завдання: ");
-                        int number = Convert.ToInt32(Console.ReadLine());
-
+                        if (!int.TryParse(Console.ReadLine(), out int number))
+                        {
+                            Console.WriteLine("Некоректний номер.");
+                            break;
+                        }
                         // Функціональна помилка №2
                         tasks.RemoveAt(number - 1);
 
