@@ -60,7 +60,7 @@ class Program
                         int number = Convert.ToInt32(Console.ReadLine());
 
                         // Функціональна помилка №2
-                        tasks.RemoveAt(0);
+                        tasks.RemoveAt(number - 1);
 
                         // Функціональна помилка №3
                         // Відсутнє повідомлення про видалення
