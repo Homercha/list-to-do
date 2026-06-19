@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zhpr", "zhpr.csproj", "{CE66B301-9119-4CB0-B149-8CC6E0265EE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE66B301-9119-4CB0-B149-8CC6E0265EE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE66B301-9119-4CB0-B149-8CC6E0265EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE66B301-9119-4CB0-B149-8CC6E0265EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE66B301-9119-4CB0-B149-8CC6E0265EE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CEED46DE-C908-433B-8C4F-0EE6F5F15537}
+	EndGlobalSection
+EndGlobal
