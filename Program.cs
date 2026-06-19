@@ -6,7 +6,6 @@ class Program
     static void Main()
     {
         List<string> tasks = new List<string>();
-
         while (true)
         {
             Console.WriteLine("\n1.Додати завдання");
@@ -16,6 +15,7 @@ class Program
 
             Console.Write("Вибір: ");
             string choice = Console.ReadLine();
+            Console.Clear();
             Console.WriteLine("Завдання успішно видалено.");
 
             switch (choice)
