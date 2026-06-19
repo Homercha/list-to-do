@@ -11,7 +11,7 @@ class Program
         {
             Console.WriteLine("\n1.Додати завдання");
             Console.WriteLine("2.Показати");
-            Console.WriteLine("3.X");
+            Console.WriteLine("3.Видалити завдання");
             Console.WriteLine("4.Вихід");
 
             Console.Write("Вибір: ");
