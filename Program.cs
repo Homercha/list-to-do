@@ -16,6 +16,7 @@ class Program
 
             Console.Write("Вибір: ");
             string choice = Console.ReadLine();
+            Console.WriteLine("Завдання успішно видалено.");
 
             switch (choice)
             {
