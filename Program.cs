@@ -9,7 +9,7 @@ class Program
 
         while (true)
         {
-            Console.WriteLine("\n1.Додати");
+            Console.WriteLine("\n1.Додати завдання");
             Console.WriteLine("2.Показати");
             Console.WriteLine("3.X");
             Console.WriteLine("4.Вихід");
@@ -23,8 +23,14 @@ class Program
                     Console.Write("Введіть завдання: ");
                     string task = Console.ReadLine();
 
-                    // Функціональна помилка №1
-                    tasks.Add(task);
+                    if (!string.IsNullOrWhiteSpace(task))
+                    {
+                        tasks.Add(task);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Завдання не може бути порожнім.");
+                    }
 
                     break;
 
